@@ -1,3 +1,32 @@
-. {
+* {
     font-family: Roboto;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.info {
+    background-color: white;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.signup {
+    background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
 }
