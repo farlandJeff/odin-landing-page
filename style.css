@@ -106,10 +106,45 @@ body {
 
 .signup {
     background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupcontent {
+    width: 1024px;
+    height: 150px;
+    background-color: #3882F6;
+    margin: 100px 0px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signupcontent p {
+    margin: 0px;
+}
+
+.signupcontent .signuphead {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signupcontent button {
+    border: solid #F9FAF8 2px;
 }
 
 .footer {
     background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0px;
 }
 
 img {
@@ -132,7 +167,7 @@ button {
     width: 130px;
     font-weight: bold;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 h2 {
